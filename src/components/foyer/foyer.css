@@ -103,12 +103,11 @@
   margin-right: 40px;
 }
 
-#titre {
+#titreFoyer {
   font-size: 25px;
   padding-top: 20px;
   margin-left: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: #ffffff;
 }
 
 .alerteStatut {

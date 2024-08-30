@@ -19,7 +19,7 @@ const Foyer = () => {
                 </p></div></>): (
                     <><><><><div id='divBtnAdd'><button className='ajoutFoyer'> + Ajouter un foyer</button></div>
                     <div className='paragrapheFoyer'> 
-                        <img className='camembert' src="./images/foyer/camembert.png"></img>
+                    <img className='camembert' src="./images/foyer/camembert.png"></img>
                         <div className='alignementConso'>
                             <h4 id="Conso">Ma consommation</h4>
                             <div className='descriptionCamembert'>
@@ -34,7 +34,7 @@ const Foyer = () => {
                     </>
                         <button className='suiviConso'> Gérer ma consommation</button>
                     </><div className='alerte'>
-                            <h1 id='titre'>Mes alertes</h1>
+                            <h1 id='titreFoyer'>Mes alertes</h1>
                             <div className='alerteStatut'>
                             <div className='pointvert'>.</div>
                                 <p>Fuites - Résolue  : Capteur : cuisine-001</p>
@@ -57,7 +57,7 @@ const Foyer = () => {
                             <div className='ligne'></div>
                         </div>
                         </><div className='capteur'>
-                            <h1 id='titre'>Mes capteurs</h1>
+                            <h1 id='titreFoyer'>Mes capteurs</h1>
                             
                         </div></>
        )
