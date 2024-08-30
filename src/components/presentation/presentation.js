@@ -21,7 +21,7 @@ const Presentation = () => {
             <Link to="/creer_foyer">Créer Foyer</Link>
           </li>
           <li>
-            <Link to="/foyer">Foyer</Link>
+            <Link to="/accueil_foyer">Foyer</Link>
           </li>
         </ul>
       </nav>

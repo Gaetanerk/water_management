@@ -6,7 +6,7 @@ import AccueilMel from './components/accueil_mel/accueil_mel';
 import AccueilRecommandationsUtilisateur from './components/accueil_recommandations_utilisateur/accueil_recommandations_utilisateur';
 import Login from './components/accueil_login/accueil_login';
 import CreerFoyer from './components/creer_foyer/creer_foyer';
-import Foyer from './components/navbar/foyer';
+import AccueilFoyer from './components/accueil_foyer/accueil_foyer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/accueil_mel" element={<AccueilMel />} />
         <Route path="/accueil_recommandations_utilisateur" element={<AccueilRecommandationsUtilisateur />} />
         <Route path="/creer_foyer" element={<CreerFoyer />} />
-        <Route path="/foyer" element={<Foyer />} />
+        <Route path="/accueil_foyer" element={<AccueilFoyer />} />
       </Routes>
     </Router>
   );

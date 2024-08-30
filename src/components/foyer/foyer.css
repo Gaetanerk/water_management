@@ -11,18 +11,16 @@
 
 .paragrapheFoyer{
 
- display: flex;
+  display: flex;
   background-color: #DDE8EE;
 }
 
 .eau{
-
   left: 0px;
   position: static;
   width: 350px;
   
 }
-
 
 .descriptionFoyer{
   text-align: left;
