@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import AccueilMel from './components/accueil_mel/accueil_mel';
+import RecommandationsUtilisateur from './components/recommandations_utilisateur/recommandations_utilisateur';
 
 function App() {
   return (
     <div>
-      <AccueilMel />
+      <RecommandationsUtilisateur />
     </div>
   );
 }
