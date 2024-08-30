@@ -5,7 +5,7 @@ import Conso24h from '../conso24h/conso24h';
 import RecommandationsMel from '../recommandations_mel/recommandations_mel';
 import DispoEau from '../dispo_eau/dispoEau';
 
-const Accueil = () => {
+const AccueilMel = () => {
     return (
       <div id='accueil'>
         <Navbar />
@@ -25,4 +25,4 @@ const Accueil = () => {
     );
   };
   
-export default Accueil;
+export default AccueilMel;
