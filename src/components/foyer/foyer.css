@@ -89,7 +89,6 @@
 
 
 .alerte {
-
   border: 2px;
   border: solid;
   border-color: #014468;
@@ -102,9 +101,6 @@
   padding-bottom: 60px;
   margin-left: 40px;
   margin-right: 40px;
-
-  
-  
 }
 
 #titre {
@@ -129,22 +125,18 @@
 }
 
 .pointvert {
-
-   color:rgb(17, 227, 17);
- 
+  color:rgb(17, 227, 17);
   margin-right: 10px;
   font-size: 30px;
 }
 .pointrouge {
-  
-   color:rgb(227, 17, 17);
+  color:rgb(227, 17, 17);
   margin-right: 10px;
   font-size: 30px;
 }
 
 
 .capteur {
-
   border: solid;
   border-color: #014468;
   border-radius: 10px ;
@@ -158,6 +150,9 @@
   max-width: auto;
   margin-left: 40px;
   margin-right: 40px;
+}
 
-  
+#divBtnAdd {
+  margin-top: -77px;
+  margin-bottom: 77px;
 }

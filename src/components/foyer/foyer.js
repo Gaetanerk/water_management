@@ -17,7 +17,7 @@ const Foyer = () => {
                     En adoptant des gestes simples comme réparer les fuites, limiter le temps passé sous la douche, ou encore utiliser des appareils économes en eau, vous pouvez faire une grande différence.<br></br><br></br>
                     Ensemble, agissons pour un avenir durable en prenant soin de notre ressource la plus vitale : l'eau.
                 </p></div></>): (
-                    <><><><><button className='ajoutFoyer'> + Ajouter un foyer</button>
+                    <><><><><div id='divBtnAdd'><button className='ajoutFoyer'> + Ajouter un foyer</button></div>
                     <div className='paragrapheFoyer'> 
                         <img className='camembert' src="./images/foyer/camembert.png"></img>
                         <div className='alignementConso'>

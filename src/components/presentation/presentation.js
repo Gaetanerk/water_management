@@ -15,13 +15,7 @@ const Presentation = () => {
             <Link to="/accueil_mel">Accueil - Mel</Link>
           </li>
           <li>
-            <Link to="/accueil_recommandations_utilisateur">Recommandations</Link>
-          </li>
-          <li>
             <Link to="/creer_foyer">Créer Foyer</Link>
-          </li>
-          <li>
-            <Link to="/accueil_foyer">Foyer</Link>
           </li>
         </ul>
       </nav>
