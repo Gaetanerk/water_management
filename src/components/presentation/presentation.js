@@ -20,6 +20,9 @@ const Presentation = () => {
           <li>
             <Link to="/creer_foyer">Créer Foyer</Link>
           </li>
+          <li>
+            <Link to="/foyer">Foyer</Link>
+          </li>
         </ul>
       </nav>
     </div>
