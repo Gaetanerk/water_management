@@ -6,7 +6,7 @@ const Foyer = () => {
    
     
     return (
-        <><select className='selectAddress' onChange={e => setSelectedAddress(e.target.value)} name={'adresse'}>
+        <div id='pageFoyer'><select className='selectAddress' onChange={e => setSelectedAddress(e.target.value)} name={'adresse'}>
             <option value="" id='rien'>Sélectionnez adresse</option>
             <option value=" 113 rue jules Guesdes" id='adresse'>113 rue jules Guesdes</option>
         </select>
@@ -17,7 +17,9 @@ const Foyer = () => {
                     En adoptant des gestes simples comme réparer les fuites, limiter le temps passé sous la douche, ou encore utiliser des appareils économes en eau, vous pouvez faire une grande différence.<br></br><br></br>
                     Ensemble, agissons pour un avenir durable en prenant soin de notre ressource la plus vitale : l'eau.
                 </p></div></>): (
-                    <><><><><div id='divBtnAdd'><button className='ajoutFoyer'> + Ajouter un foyer</button></div>
+                    <><><><><div id='divBtnAdd'>
+                        <button className='ajoutFoyer'> + Ajouter un foyer</button>
+                        </div>
                     <div className='paragrapheFoyer'> 
                     <img className='camembert' src="./images/foyer/camembert.png"></img>
                         <div className='alignementConso'>
@@ -59,10 +61,11 @@ const Foyer = () => {
                         </><div className='capteur'>
                             <h1 id='titreFoyer'>Mes capteurs</h1>
                             
-                        </div></>
+                        </div>
+                        </>
        )
         }
-        </>
+        </div>
 
     );
 }

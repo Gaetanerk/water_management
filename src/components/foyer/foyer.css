@@ -152,6 +152,11 @@
 }
 
 #divBtnAdd {
-  margin-top: -125px;
-  margin-bottom: 125px;
+  position: absolute;
+  left: 950px;
+  top: 0;
+}
+
+#pageFoyer {
+  position: relative;
 }
