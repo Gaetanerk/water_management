@@ -39,16 +39,12 @@
   font-family: 'Ubuntu', sans-serif;
   font-size: 25px;
   width: 300px;
-
-
-
 }
 
 .camembert{
   left: 0px;
   position: static;
   width: 300px;
-  
 }
 .alignementConso{
   height: 300px;
@@ -57,11 +53,10 @@
 }
 
 .descriptionCamembert{
- width: 500px;
- height: 200px;
+  width: 500px;
+  height: 200px;
   text-align: left;
   margin-left: 5%;
-
 }
 
 .ajoutFoyer{
@@ -106,8 +101,6 @@
   padding-bottom: 60px;
   margin-left: 40px;
   margin-right: 40px;
-  
-  
 }
 
 #titre {
