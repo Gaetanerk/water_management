@@ -17,6 +17,9 @@ const Presentation = () => {
           <li>
             <Link to="/accueil_recommandations_utilisateur">Recommandations</Link>
           </li>
+          <li>
+            <Link to="/creer_foyer">Créer Foyer</Link>
+          </li>
         </ul>
       </nav>
     </div>
