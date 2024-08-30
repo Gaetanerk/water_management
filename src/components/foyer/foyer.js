@@ -22,15 +22,15 @@ const Foyer = () => {
                         </div>
                     <div className='paragrapheFoyer'> 
                     <img className='camembert' src="./images/foyer/camembert.png"></img>
-                        <div className='alignementConso'>
+                    <div className='alignementConso'>
                             <h4 id="Conso">Ma consommation</h4>
                             <div className='descriptionCamembert'>
-                                <p>
-                                    Salle de bain.<br></br><br></br>
-                                    Cuisine.<br></br><br></br>
-                                    Jardin.<br></br><br></br>
-                                    Toilettes.<br></br><br></br>
-                                </p></div>
+                              
+                                  <div className='ligneConso'><div className='carreOrange'></div><p className='pieceLigne'>Salle de bain.</p></div>  
+                                  <div className='ligneConso'> <div className='carreJaune'></div><p> Cuisine.</p></div> 
+                                  <div className='ligneConso'><div className='carreBleu'></div><p>Jardin.</p></div> 
+                                  <div className='ligneConso'> <div className='carreVert'></div><p>Toilettes.</p> </div> 
+                                </div>
                         </div>
                     </div>
                     </>

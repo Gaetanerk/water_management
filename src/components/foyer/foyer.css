@@ -160,3 +160,55 @@
 #pageFoyer {
   position: relative;
 }
+
+.ligneConso{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  height: 15px;
+  width: 500px;
+  margin: 10px 0;
+  
+}
+.ligneConso p{
+  margin-top: -2px;
+  margin-left: 10px;
+}
+.pieceLigne{
+  height: 15px;
+  position: static;
+
+}
+
+.carreOrange {
+
+  background-color:rgb(227, 80, 17);
+  width: 20px;
+  height: 20px;
+  
+}
+
+
+.carreJaune {
+
+  background-color:rgb(227, 216, 17);
+  width: 20px;
+  height: 20px;
+  
+  
+}
+
+.carreBleu {
+
+  background-color:rgb(17, 66, 227);
+  width: 20px;
+  height: 20px;
+  
+}
+.carreVert {
+
+  background-color:rgb(104, 227, 17);
+  width: 20px;
+  height: 20px;
+
+}
