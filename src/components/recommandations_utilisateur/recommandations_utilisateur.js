@@ -1,10 +1,8 @@
-import NavbarMel from '../navbar/navbar';
 import './recommandations_utilisateur.css';
 
 const RecommandationsUtilisateur = () => {
   return (
     <div id="recommandations_utilisateur">
-      <Navbar />
       <h1 id='titre'>Recommandations</h1>
       <div id='elements'>
         <div>
